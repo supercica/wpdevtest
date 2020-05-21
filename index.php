@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+<?php $custom= new WP_Query(); 
+if($custom->have_posts()):
+    while($custom->have_posts()): $custom->the_post();
+    endwhile;
+endif;
+?>
+<pre><?php var_dump($wp_query);?></pre>
+
 <?php if(have_posts()): ?>
     <?php while(have_posts()): the_post(); ?>
     <h2>
