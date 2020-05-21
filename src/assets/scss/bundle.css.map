@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "bundle.scss",
+        "components/header.scss"
+    ],
+    "names": [],
+    "file": "bundle.css"
+}
